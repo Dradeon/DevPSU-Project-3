@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API/Deployment Demo</title>
+    <title>Random Cat Facts</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 </head>
 <body style="margin-top:1em">
     <div class="ui raised very padded text container segment">
         {# Add API stuff here, you can replace the title and image_url fields with your own details #}
-        <h1 class="ui header">{{ title }}</h1>
+        <h1 class = "ui centered header">Cat Fact of the Day:</h1>
+        <h2 class="ui centered header">{{ fact }}</h2>
         <img class="ui centered big image" src="{{ image_url }}">
       </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
